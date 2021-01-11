@@ -2,6 +2,9 @@ package org.sample;
 
 public class Sample {
 	
+	private void tc1() {
+		System.out.println("new method");
+	}
 	private void tc2() {
 		System.out.println("New Method");
 
@@ -17,8 +20,9 @@ public class Sample {
 		System.out.println("Sample 7");
 		System.out.println("Ramkumar");
 		System.out.println("Vishal");
-		Sample s = new Sample();
-		s.tc2();
+		Sample sample = new Sample();
+		sample.tc1();
+		sample.tc2();
 	}
 
 }
