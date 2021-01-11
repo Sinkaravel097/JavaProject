@@ -4,6 +4,9 @@ public class Sample {
 	
 	private void tc1() {
 		System.out.println("new method");
+	}
+	private void tc2() {
+		System.out.println("New Method");
 
 	}
 
@@ -19,6 +22,7 @@ public class Sample {
 		System.out.println("Vishal");
 		Sample sample = new Sample();
 		sample.tc1();
+		sample.tc2();
 	}
 
 }
