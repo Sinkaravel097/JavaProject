@@ -1,6 +1,11 @@
 package org.sample;
 
 public class Sample {
+	
+	private void tc1() {
+		System.out.println("new method");
+
+	}
 
 	public static void main(String[] args) {
 		System.out.println("Sample 1");
@@ -12,6 +17,8 @@ public class Sample {
 		System.out.println("Sample 7");
 		System.out.println("Ramkumar");
 		System.out.println("Vishal");
+		Sample sample = new Sample();
+		sample.tc1();
 	}
 
 }
